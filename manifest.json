@@ -1,0 +1,32 @@
+{
+  "name": "Name of the extension - maximum of 45 characters",
+  "description": "Short description of the plugin - no more than 132 characters",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "webNavigation",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Click to activate",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/template-icon-16.png",
+      "32": "/images/template-icon-32.png",
+      "48": "/images/template-icon-48.png",
+      "128": "/images/template-icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/template-icon-16.png",
+    "32": "/images/template-icon-32.png",
+    "48": "/images/template-icon-48.png",
+    "128": "/images/template-icon-128.png"
+  }
+}

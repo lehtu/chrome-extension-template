@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato&display=swap');
+
+body {
+    background: #f1f1f1;
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    padding: 1em;
+}
+
+img#icon {
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    color: #E94560;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button#myFirstActionButton {
+    background: #533483;
+    color: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    padding: 0.5em 1em;
+}
+
+button#myFirstActionButton:active {
+    background: #0F3460;
+    color: #f1f1f1;
+}
+
+#footer {
+    font-family: Ubuntu;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+#footer span,
+#footer span a {
+    font-size: 0.8em;
+    color: #888;
+    text-decoration: none;
+}
+
+#footer span:hover {
+    color: #000;
+}
+
+#footer span a:hover {
+    color: #E94560;
+    text-decoration: underline;
+}
+
+#footer span:hover .highlight,
+#footer span:hover a {
+    color: #E94560 !important;
+}

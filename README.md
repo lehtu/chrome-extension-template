@@ -11,5 +11,5 @@ After installation this plugin turns all the pages into grayscale and from the e
 ## Usage / Development
 
 1. Clone this repo to your computer
-2. Navigate to (Chrome's extensions page){chrome://extensions/}
+2. Navigate to Chrome's extensions page: `chrome://extensions/`
 3. Click `Load unpacked` and choose this extensions folder
